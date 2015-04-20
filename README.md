@@ -4,8 +4,7 @@
 ***BBDD***. Tanto las tablas propias de la app como las que requiere Quartz Cluster se implementan sobre Postgresql.<br>
 ***Servidores***. Apache (XAMPP) para servir los archivos xml que simulan los mensajes a publicar y Tomcat contenedor Java.<br>
 
-````
-#!sql
+```sql
 --
 -- TOC entry 170 (class 1259 OID 509326)
 -- Name: cuenta_twitter; Type: TABLE; Schema: public; Owner: renfe; Tablespace: 
@@ -306,4 +305,4 @@ INSERT INTO qrtz_locks VALUES ('JOB_ACCESS');
 INSERT INTO qrtz_locks VALUES ('CALENDAR_ACCESS');
 INSERT INTO qrtz_locks VALUES ('STATE_ACCESS');
 INSERT INTO qrtz_locks VALUES ('MISFIRE_ACCESS');
-````
+```
